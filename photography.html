@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Photography portfolio for Byung Jun Kim." />
+  <title>Byung Jun Kim | Photography</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Source+Serif+4:opsz,wght@8..60,500;8..60,650;8..60,750&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="photo-site">
+  <header class="site-header photo-header" id="top">
+    <nav class="nav" aria-label="Photography navigation">
+      <a class="brand" href="index.html">Byung Jun Kim</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="#work">Work</a>
+        <a href="#collections">Collections</a>
+        <a href="#about-photo">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="photo-hero section">
+      <div class="photo-hero-copy">
+        <p class="eyebrow">Photography portfolio</p>
+        <h1>Quiet frames, sharp light, human traces.</h1>
+        <p class="lead">A portfolio space for street, travel, portrait, and documentary photography. Replace the placeholder image tiles with your own photos and captions.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#work">View work</a>
+          <a class="button secondary" href="mailto:byungjun.kim.uzh@gmail.com">Book / Contact</a>
+        </div>
+      </div>
+      <div class="photo-stack" aria-label="Featured image placeholders">
+        <div class="photo-card tall">01</div>
+        <div class="photo-card">02</div>
+        <div class="photo-card wide">03</div>
+      </div>
+    </section>
+
+    <section class="section" id="work">
+      <p class="eyebrow">Selected work</p>
+      <h2>Featured photographs</h2>
+      <div class="masonry-grid">
+        <figure class="shot large"><span>Urban dusk</span><figcaption>[Add location / year]</figcaption></figure>
+        <figure class="shot"><span>Passing light</span><figcaption>[Add location / year]</figcaption></figure>
+        <figure class="shot tall"><span>Portrait study</span><figcaption>[Add location / year]</figcaption></figure>
+        <figure class="shot"><span>After rain</span><figcaption>[Add location / year]</figcaption></figure>
+        <figure class="shot wide"><span>Window seat</span><figcaption>[Add location / year]</figcaption></figure>
+        <figure class="shot"><span>Still morning</span><figcaption>[Add location / year]</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section" id="collections">
+      <p class="eyebrow">Collections</p>
+      <h2>Visual essays</h2>
+      <div class="cards photo-collections">
+        <article class="card dark-card">
+          <h3>Street fragments</h3>
+          <p>A series about movement, coincidence, and city textures.</p>
+        </article>
+        <article class="card dark-card">
+          <h3>Travel notes</h3>
+          <p>Images from places in transition: stations, borders, coastlines, and alleys.</p>
+        </article>
+        <article class="card dark-card">
+          <h3>Portraits</h3>
+          <p>Quiet portraits with natural light and minimal staging.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section two-column" id="about-photo">
+      <div>
+        <p class="eyebrow">About the work</p>
+        <h2>Photography as observation.</h2>
+      </div>
+      <div class="content-block">
+        <p>This page is designed as a visual counterpart to the academic profile: less text, more atmosphere, and a strong gallery-first rhythm.</p>
+        <p>Add your artist statement here, preferred genres, camera notes, exhibitions, prints, commissions, or links to Instagram / Behance / VSCO.</p>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <p class="eyebrow">Contact</p>
+      <h2>For prints, collaborations, or shoots.</h2>
+      <p>Email: <a href="mailto:byungjun.kim.uzh@gmail.com">byungjun.kim.uzh@gmail.com</a></p>
+      <p class="small-note">Add Instagram or portfolio links here.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Byung Jun Kim. Photography portfolio.</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

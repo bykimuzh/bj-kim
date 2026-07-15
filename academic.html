@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Academic personal website for Byung Jun Kim." />
+  <title>Byung Jun Kim | Academic</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,500;8..60,650&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="index.html">Byung Jun Kim</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#cv">CV</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="hero-text">
+        <p class="eyebrow">Researcher · University of Zurich</p>
+        <h1>Hi, I’m Byung Jun Kim.</h1>
+        <p class="lead">I study <strong>[your main research area]</strong>, with interests in <strong>[topic one]</strong>, <strong>[topic two]</strong>, and <strong>[topic three]</strong>.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#publications">View publications</a>
+          <a class="button secondary" href="mailto:byungjun.kim.uzh@gmail.com">Email me</a>
+        </div>
+      </div>
+      <aside class="profile-card" aria-label="Profile summary">
+        <div class="portrait" role="img" aria-label="Profile photo placeholder">BJK</div>
+        <h2>Byung Jun Kim</h2>
+        <p>PhD Candidate / Researcher</p>
+        <p>University of Zurich</p>
+        <div class="socials">
+          <a href="mailto:byungjun.kim.uzh@gmail.com">Email</a>
+          <a href="https://scholar.google.com" target="_blank" rel="noreferrer">Google Scholar</a>
+          <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section two-column" id="about">
+      <div>
+        <p class="eyebrow">About</p>
+        <h2>Research profile</h2>
+      </div>
+      <div class="content-block">
+        <p>I am an academic researcher at the University of Zurich. My work focuses on <strong>[one-sentence research agenda]</strong>. I am especially interested in questions that connect <strong>[field/method]</strong> with <strong>[application/domain]</strong>.</p>
+        <p>Before joining UZH, I <strong>[add previous degree, institution, or role]</strong>. Outside research, I enjoy <strong>[optional personal detail]</strong>.</p>
+      </div>
+    </section>
+
+    <section class="section" id="research">
+      <p class="eyebrow">Research</p>
+      <h2>Current interests</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Research theme one</h3>
+          <p>Describe your first major research area in two or three sentences. Keep it readable for both specialists and non-specialists.</p>
+        </article>
+        <article class="card">
+          <h3>Research theme two</h3>
+          <p>Summarize another topic, method, dataset, theory, or empirical question that defines your work.</p>
+        </article>
+        <article class="card">
+          <h3>Research theme three</h3>
+          <p>Use this space for a broader agenda, interdisciplinary interest, or ongoing project pipeline.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="publications">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Publications</p>
+          <h2>Selected work</h2>
+        </div>
+        <button class="button small" id="toggle-publications">Show all</button>
+      </div>
+
+      <div class="publication-list">
+        <article class="publication featured">
+          <h3>“Title of your most important paper”</h3>
+          <p><strong>Byung Jun Kim</strong>, Coauthor Name, Coauthor Name.</p>
+          <p><em>Journal or Conference Name</em>, 2026.</p>
+          <div class="pub-links">
+            <a href="#">PDF</a>
+            <a href="#">Code</a>
+            <a href="#">BibTeX</a>
+          </div>
+        </article>
+        <article class="publication featured">
+          <h3>“Another publication title goes here”</h3>
+          <p><strong>Byung Jun Kim</strong>, Coauthor Name.</p>
+          <p><em>Working paper</em>, 2025.</p>
+          <div class="pub-links">
+            <a href="#">PDF</a>
+            <a href="#">Slides</a>
+          </div>
+        </article>
+        <article class="publication extra hidden">
+          <h3>“Older or additional publication title”</h3>
+          <p><strong>Byung Jun Kim</strong>, Coauthor Name.</p>
+          <p><em>Journal / Workshop / Preprint</em>, 2024.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section two-column" id="teaching">
+      <div>
+        <p class="eyebrow">Teaching</p>
+        <h2>Courses and supervision</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span>2026</span>
+          <p><strong>Course title</strong> — Teaching assistant / instructor, University of Zurich.</p>
+        </div>
+        <div class="timeline-item">
+          <span>2025</span>
+          <p><strong>Workshop or seminar title</strong> — Short description of your teaching role.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="cv">
+      <div class="cta-panel">
+        <div>
+          <p class="eyebrow">CV</p>
+          <h2>Curriculum vitae</h2>
+          <p>Download my latest CV, including education, publications, teaching, awards, and service.</p>
+        </div>
+        <a class="button primary" href="cv.pdf">Download CV</a>
+      </div>
+    </section>
+
+    <section class="section two-column" id="contact">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Get in touch</h2>
+      </div>
+      <div class="content-block">
+        <p>Email is the best way to reach me.</p>
+        <p><a href="mailto:byungjun.kim.uzh@gmail.com">byungjun.kim.uzh@gmail.com</a></p>
+        <p>University of Zurich<br />[Department / Institute]<br />[Office address]</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Byung Jun Kim. Built with plain HTML, CSS, and a tiny bit of JavaScript.</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
